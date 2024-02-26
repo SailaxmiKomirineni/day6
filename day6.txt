@@ -34,7 +34,20 @@
 3.
 
 4. For loop is used to get the result from collection of elements like List, array, set, dictionary, tuple, strings.
-   To iterate over a sequence of elements 
+   To iterate over a sequence of elements in the collection. 
+   for i in range(len(n)):
+   i -> "i" is the iterator from 0 to length of the n,where i=0,1,2,3,4,...n
+   range -> range starts from 0 to length of the n.ranges are exclusive in python.
+
+   => Inclusive Range: 
+      Start point and end point are included in the range 
+      Ex: range(1,5) => 1,2,3,4,5 
+         ruby,swift, c#
+   => Exclusive Range:
+      Start point is included and end point is not included in the range
+      Ex: range(1,5) => 1,2,3,4 
+          python 
+   
          
 
 
