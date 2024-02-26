@@ -1,0 +1,46 @@
+1. what is PEP8?
+2. what are operators? What is use of walrus operator?
+3. why 0.3 + 0.6 = 0.899999
+4. When for loop is used and explain for loop syntax and which is exclusive and inclusive explain?
+
+1. => PEP8 = Python Enhancement Proposal
+   To develop a module or development process in python. We use pep8 guildlines for best code readibility and code written by different 
+   developers should be consistent or similar pattern.
+   Module: To use the code to complete a task which is used again and again. Others can access the code which is used in their development
+   we send the module(code) to community. community review whether it follows PEP8 guidelines.
+   PEP8 Guidelines:
+   1. Indentations : 4 spaces
+   2. Whitespaces  : single white space (use). No extra white spaces after brackets or parenthesis.
+   3. Line Length  : max 79 characters in a line
+   4. Import       : import modules in seperate line
+   5. Naming Convention : use meaningfull variable. Follow
+      For variables & Functions = "snake_case"
+          Classes               = "CamelCase"
+          Constants             = "UPPER_CASE"
+   6. Comments     : write clear comments
+   7.Functions and Method : Use to blank lines to seperate them.
+   8.Docstrings    : use to write documentation for modules, classes, functions and methods
+
+2. => To perform some operations between the elements we use operators like "+", "-", "/", "=", "%", "!", "&", ":=" etc
+   Walrus Operator : ":="
+       this operator is used only in inline statements where in some cases "=" is not possible.
+   In statements like, 
+              n = [1,2,3,4,5]
+              if len(n)>3:      
+   Here in statemnet twice len is calculated to calcula 1 time by storing value.
+              if l := len(n) > 3:
+   we can avoid redundancy = storing same data multiple time, leads decrease in storage space.
+
+3.
+
+4. For loop is used to get the result from collection of elements like List, array, set, dictionary, tuple, strings.
+   To iterate over a sequence of elements 
+         
+
+
+
+
+
+
+
+
