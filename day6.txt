@@ -31,7 +31,8 @@
               if l := len(n) > 3:
    we can avoid redundancy = storing same data multiple time, leads decrease in storage space.
 
-3.
+3. This is due to limitations of floating point arithmetic.
+   => Floating point numbers are represented in binary format
 
 4. For loop is used to get the result from collection of elements like List, array, set, dictionary, tuple, strings.
    To iterate over a sequence of elements in the collection. 
