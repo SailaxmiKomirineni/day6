@@ -27,7 +27,7 @@
    In statements like, 
               n = [1,2,3,4,5]
               if len(n)>3:      
-   Here in statemnet twice len is calculated to calcula 1 time by storing value.
+   Here in statement twice len is calculated to calculate 1 time by storing value.
               if l := len(n) > 3:
    we can avoid redundancy = storing same data multiple time, leads decrease in storage space.
 
